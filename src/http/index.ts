@@ -1,7 +1,8 @@
 import axios from 'axios';
 import { AuthResponse } from "../models/response/AuthResponse";
+// require('dotenv').config();
 
-export const API_URL = `${process.env.API_URL}/api`;
+export const API_URL = process.env.REACT_APP_API_URL;
 
 const $api = axios.create({
     baseURL: API_URL,
