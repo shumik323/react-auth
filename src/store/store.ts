@@ -38,7 +38,7 @@ export default class store {
                 callback();
 
                 toast.success('🦄 You are logged in!', {
-                    autoClose: 2000,
+                    autoClose: 1000,
                 });
             }
         } catch (err) {
@@ -59,7 +59,7 @@ export default class store {
                 callback();
 
                 toast.success('🦄 You are registered, now you can log in!', {
-                    autoClose: 2000,
+                    autoClose: 1000,
                 })
             }
         } catch (err) {
@@ -77,7 +77,7 @@ export default class store {
             this.setUser({} as IUser);
 
             toast.success('🦄 You are logged out!', {
-                autoClose: 2000,
+                autoClose: 1000,
             })
         } catch (err) {
             console.error(err.response?.data?.message, 'logout');
