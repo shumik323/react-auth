@@ -1,0 +1,29 @@
+@font-face {
+  font-family: 'IBMPlexMono-Bold';
+  src: local('IBMPlexMono-Bold'),
+  url('./static/fonts/IBMPlexMono-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+:root, body {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+
+  font-size: 16px !important;
+  color: #000000;
+  font-family: Helvetica, sans-serif;
+  line-height: 1.5;
+
+  color-scheme: light dark;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}

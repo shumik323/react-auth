@@ -1,0 +1,117 @@
+.title {
+  font-family: IBMPlexMono-Bold, sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #1c103b;
+  margin-bottom: 1rem;
+}
+.parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+
+  height: 100%;
+  width: 100%;
+
+  padding: 1rem;
+}
+.login-form-sign-up {
+  font-family: IBMPlexMono-Bold, sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+
+  position: relative;
+  z-index: 100;
+  max-width: 500px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+
+  padding: 1.5rem;
+
+  -webkit-text-size-adjust: 100%;
+  word-break: normal;
+  tab-size: 4;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+  line-height: 1.5;
+  color: #1c103b;
+  box-sizing: inherit;
+  margin: 0;
+  border-radius: 25px!important;
+  --rgb-v-primary-base: 39,46,54;
+  min-height: 300px;
+  box-shadow: 0 0 30px rgba(var(--rgb-v-primary-base),.07);
+  width: 472px;
+}
+.field-sign-up {
+  width: 450px;
+  color: #1c103b;
+  display: flex;
+  flex-direction: column;
+}
+.field-sign-up input:hover {
+  background-color: #f3f5f7;
+  box-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.05);
+}
+.field-sign-up label {
+  margin-bottom: 1rem;
+}
+.field-sign-up input {
+  margin-bottom: 2rem;
+  font-weight: 700;
+
+  border-radius: 10px;
+  position: relative;
+  background-color: #f3f5f6;
+
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  cursor: pointer;
+
+  height: 60px;
+  border: none;
+
+  color: #1c103b;
+
+  outline: none;
+  box-shadow: 0 4px 20px 0 transparent;
+  transition: 0.3s background-color ease-in-out, 0.3s box-shadow ease-in-out, 0.1s padding ease-in-out;
+}
+input::placeholder {
+  text-transform: uppercase;
+  color: #1c103b;
+}
+
+.button {
+  min-width: 450px;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  font-family: IBMPlexMono-Bold, sans-serif;
+
+  padding: 1rem 3rem;
+  margin: 0.5rem 2rem;
+  border: none;
+  border-radius: 10px;
+  color: #727d00cc;
+  transition: .2s ease-in-out;
+  cursor: pointer;
+  background: #f3f5f6;
+}
+.button:hover {
+  opacity: 0.8;
+}
+.btn-login {
+  background: #727d00cc;
+  color: #fff;
+}
+
+

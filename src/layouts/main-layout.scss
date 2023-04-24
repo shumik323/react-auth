@@ -1,0 +1,53 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 1400px;
+
+  padding: 1rem;
+}
+.preview-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  margin: 2rem 0 3rem 0;
+  color: #1c103b;
+
+  line-height: 1.1;
+}
+.preview-hello {
+  max-width: 45%;
+  color: #1c103b;
+  margin: 0;
+
+  font-size: 6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  line-height: 1  ;
+}
+.preview-description {
+  max-width: 45%;
+  color: #1c103b;
+  margin: 0;
+
+  font-family: IBMPlexMono-Bold, sans-serif;
+
+  font-size: 1.5rem;
+  text-transform: uppercase;
+}
+.parent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+
+  height: 100%;
+  width: 100%;
+
+  padding: 1rem;
+}
+.evil {
+  color: #727d00cc;
+}
