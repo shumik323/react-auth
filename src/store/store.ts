@@ -43,7 +43,9 @@ export default class store {
             }
         } catch (err) {
             console.error(err.response?.data?.message, 'login');
-            toast.error(err.response?.data?.message);
+            toast.error(err.response?.data?.message, {
+                autoClose: 1000,
+            });
         }
     }
 
@@ -64,7 +66,9 @@ export default class store {
             }
         } catch (err) {
             console.error(err.response?.data?.message, 'registration');
-            toast.error(err.response?.data?.message);
+            toast.error(err.response?.data?.message, {
+                autoClose: 1000,
+            });
         }
     }
 
